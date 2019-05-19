@@ -21,6 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dev.shm.R;
+import com.dev.shm.com.dev.shm.calendar.DefaultCalendarActivity;
 import com.dev.shm.ui.login.LoginViewModel;
 import com.dev.shm.ui.login.LoginViewModelFactory;
 
@@ -72,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 setResult(Activity.RESULT_OK);
 
-                Intent intent = new Intent(getApplicationContext(), TestActivity.class);
+                Intent intent = new Intent(getApplicationContext(), DefaultCalendarActivity.class);
                 startActivity(intent);
                 //Complete and destroy login activity once successful
                 finish();

@@ -44,7 +44,7 @@ public class DefaultCalendarActivity extends AppCompatActivity implements RadioG
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_default_calendar);
 
-        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
+//        setSupportActionBar((Toolbar) findViewById(R.id.toolbar));
 
         initViews();
         createCriterias();
